@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Rekomendasi Buku</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="banner">
+    <h1>Website Rekomendasi Buku</h1>
+    <p>Temukan bacaan terbaik untuk Anda</p>
+  </header>
+
+  <main>
+    <section class="book-list">
+      <h2>Rekomendasi Buku</h2>
+      <nav class="kategori-buku">
+        <a href="#" class="aktif" onclick="gantiKategori('horror', this)">Horror</a>
+        <a href="#" onclick="gantiKategori('fiksi', this)">Fiksi</a>
+        <a href="#" onclick="gantiKategori('romansa', this)">Romansa</a>
+      </nav>
+
+      <div id="horror" class="grup-buku">
+        <table class="tabel-custom">
+          <tr>
+            <td class="kolom-kiri">
+              <img src="https://i.pinimg.com/originals/34/ee/8b/34ee8bbcbaaa7d451dfa97d80fd8b9ed.jpg" alt="Sampul Buku King in Yellow" style="width: 150px; border-radius: 8px; margin-bottom: 15px;"><br>
+            </td>
+            <td class="kolom-kanan">
+              <p class="detail-buku"><strong>Judul Buku:</strong> The King in Yellow</p>
+              <p class="detail-buku"><strong>Penulis:</strong> Robert W. Chambers</p>
+              <p class="detail-buku"><strong>Tahun Terbit:</strong> 1895</p>
+              <p class="detail-buku"><strong>Penerbit:</strong> F. Tennyson Neely</p>
+              <p class="detail-buku"><strong>Genre:</strong> Horror, Supernatural, Dekadensi</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="sinopsis-tengah">
+              The King in Yellow (1895) karya Robert W. Chambers adalah sebuah kumpulan cerita pendek yang memadukan genre horor supernatural, dekadensi, dan romansa. Cocok bagi para penggemar cerita misteri dan atmosfer gelap, buku ini menawarkan pengalaman membaca yang unik dengan tema-tema yang memikat dan penuh teka-teki.
+            </td>
+          </tr>
+        </table>
+        
+        <hr style="border: 1px solid #eee; margin: 40px 0;">
+
+        <table class="tabel-custom">
+          <tr>
+            <td class="kolom-kiri">
+              <img src="https://images.saymedia-content.com/.image/t_share/MTc4NDc5NjU0OTM0NDg4Njg1/the-struggle-for-hope-in-harlan-ellisons-i-have-no-mouth-and-i-must-scream.jpg" alt="Sampul Buku I have no Mouth and I must Scream" style="width: 150px; border-radius: 8px; margin-bottom: 15px;"><br>
+            </td>
+            <td class="kolom-kanan">
+              <p class="detail-buku"><strong>Judul Buku:</strong> I have no Mouth and I must Scream</p>
+              <p class="detail-buku"><strong>Penulis:</strong> Harlan Ellison</p>
+              <p class="detail-buku"><strong>Tahun Terbit:</strong> 1967</p>
+              <p class="detail-buku"><strong>Penerbit:</strong> Pyramid Books</p>
+              <p class="detail-buku"><strong>Genre:</strong> Horror, Dystopian, Psychological</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="sinopsis-tengah">
+              I have no Mouth and I must Scream (1967) karya Harlan Ellison adalah sebuah cerita pendek yang menggambarkan penderitaan manusia dalam dunia yang penuh dengan kekejaman dan ketidakberdayaan. Buku ini menawarkan perspektif yang kuat tentang isu-isu sosial dan psikologis, serta menggugah emosi pembaca melalui narasi yang intens dan penuh konflik.
+            </td>
+          </tr>
+        </table> 
+
+        <hr style="border: 1px solid #eee; margin: 40px 0;">
+
+        <table class="tabel-custom">
+          <tr>
+            <td class="kolom-kiri">
+              <img src="https://static.tvtropes.org/pmwiki/pub/images/birdbox_4928.jpg" alt="Sampul Buku Bird Box" style="width: 150px; border-radius: 8px; margin-bottom: 15px;"><br>
+            </td>
+            <td class="kolom-kanan">
+              <p class="detail-buku"><strong>Judul Buku:</strong> Bird Box</p>
+              <p class="detail-buku"><strong>Penulis:</strong> Josh Malerman</p>
+              <p class="detail-buku"><strong>Tahun Terbit:</strong> 2014</p>
+              <p class="detail-buku"><strong>Penerbit:</strong> Flatiron Books</p>
+              <p class="detail-buku"><strong>Genre:</strong> Horror, Post-Apocalyptic, Psychological</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="sinopsis-tengah">
+              Bird Box (2014) karya Josh Malerman adalah sebuah novel fiksi ilmiah yang menggambarkan dunia di mana manusia harus bersembunyi dari entitas misterius yang mematikan jika mereka melihatnya. Buku ini menawarkan perspektif yang kuat tentang isu-isu sosial dan psikologis, serta menggugah emosi pembaca melalui narasi yang intens dan penuh konflik.
+            </td>
+          </tr>
+        </table>
+      </div> <div id="fiksi" class="grup-buku" style="display: none;">
+        <table class="tabel-custom">
+          <tr>
+            <td class="kolom-kiri">
+              <img src="https://static1.srcdn.com/wordpress/wp-content/uploads/2023/08/dune-franchise-poster.jpeg" alt="Sampul Buku Dune" style="width: 150px; border-radius: 8px; margin-bottom: 15px;"><br>
+            </td>
+            <td class="kolom-kanan">
+              <p class="detail-buku"><strong>Judul Buku:</strong> Dune </p>
+              <p class="detail-buku"><strong>Penulis:</strong> Frank Herbert</p>
+              <p class="detail-buku"><strong>Tahun Terbit:</strong> 1965</p>
+              <p class="detail-buku"><strong>Penerbit:</strong> Chilton Books</p>
+              <p class="detail-buku"><strong>Genre:</strong> Science Fiction, Adventure</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="sinopsis-tengah">
+              Dune (1965) karya Frank Herbert adalah sebuah novel fiksi ilmiah yang menggambarkan dunia di mana manusia harus berjuang untuk bertahan hidup dalam lingkungan yang penuh dengan politik, religi, dan konflik. Buku ini menawarkan perspektif yang kuat tentang isu-isu sosial dan psikologis, serta menggugah emosi pembaca melalui narasi yang intens dan penuh konflik.
+            </td>
+          </tr>
+        </table>
+
+        <hr style="border: 1px solid #eee; margin: 40px 0;">
+
+        <table class="tabel-custom">
+          <tr>
+            <td class="kolom-kiri">
+              <img src="https://cdn.kobo.com/book-images/c570be4d-a1c5-4bce-b156-15ab96049e28/353/569/90/False/dark-matter-40.jpg" alt="Sampul Buku Dark Matter" style="width: 150px; border-radius: 8px; margin-bottom: 15px;"><br>
+            </td>
+            <td class="kolom-kanan">
+              <p class="detail-buku"><strong>Judul Buku:</strong> Dark Matter</p>
+              <p class="detail-buku"><strong>Penulis:</strong> Blake Crouch</p>
+              <p class="detail-buku"><strong>Tahun Terbit:</strong> 2016</p>
+              <p class="detail-buku"><strong>Penerbit:</strong> Pegasus Books</p>
+              <p class="detail-buku"><strong>Genre:</strong> Science Fiction, Psychological</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="sinopsis-tengah">
+              Dark Matter (2016) karya Blake Crouch adalah sebuah novel fiksi ilmiah yang menggambarkan dunia di mana manusia harus berjuang untuk bertahan hidup dalam lingkungan yang penuh dengan politik, religi, dan konflik. Buku ini menawarkan perspektif yang kuat tentang isu-isu sosial dan psikologis, serta menggugah emosi pembaca melalui narasi yang intens dan penuh konflik.
+            </td>
+          </tr>
+        </table>
+
+        <hr style="border: 1px solid #eee; margin: 40px 0;">
+
+        <table class="tabel-custom">
+          <tr>
+            <td class="kolom-kiri">
+              <img src="https://stambergadinchiostro.altervista.org/wp-content/uploads/2021/02/Piranesi-cover-1346x2048.jpg" alt="Sampul Buku Piranesi" style="width: 150px; border-radius: 8px; margin-bottom: 15px;"><br>
+            </td>
+            <td class="kolom-kanan">
+              <p class="detail-buku"><strong>Judul Buku:</strong> Piranesi</p>
+              <p class="detail-buku"><strong>Penulis:</strong> Susanna Clarke</p>
+              <p class="detail-buku"><strong>Tahun Terbit:</strong> 2018</p>
+              <p class="detail-buku"><strong>Penerbit:</strong> Bloomsbury</p>
+              <p class="detail-buku"><strong>Genre:</strong> Fantasy, Psychological</p>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2" class="sinopsis-tengah">
+              Piranesi (2018) karya Susanna Clarke adalah sebuah novel fantasi yang menggambarkan dunia di mana seorang pemuda menemukan sebuah dunia misterius dan penuh dengan teka-teki. Buku ini menawarkan perspektif yang kuat tentang isu-isu sosial dan psikologis, serta menggugah emosi pembaca melalui narasi yang intens dan penuh konflik.
+            </td>
+          </tr>
+        </table>
+        </div>
+
+      <div id="romansa" class="grup-buku" style="display: none;">
+        <h3 style="text-align: center; color: #555; margin-top: 50px;">Ini adalah halaman Romansa. Buku belum ditambahkan.</h3>
+        </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Politala - Website Rekomendasi Buku</p>
+  </footer>
+
+  <script>
+    function gantiKategori(idKategori, tombolDiklik) {
+      let semuaGrup = document.getElementsByClassName("grup-buku");
+      for (let i = 0; i < semuaGrup.length; i++) {
+        semuaGrup[i].style.display = "none";
+      }
+
+      let semuaTombol = document.querySelectorAll(".kategori-buku a");
+      for (let i = 0; i < semuaTombol.length; i++) {
+        semuaTombol[i].classList.remove("aktif");
+      }
+
+      document.getElementById(idKategori).style.display = "block";
+
+      tombolDiklik.classList.add("aktif");
+    }
+  </script>
+</body>
+</html>
